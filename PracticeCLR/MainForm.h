@@ -562,7 +562,7 @@ namespace PracticeCLR {
 			// Print student info for the top students
 			std::string tempStr;
 			for (const auto& student : topStudents) {
-				tempStr += student.firstName + " " + student.lastName;
+				tempStr += student.firstName + "  " + student.lastName;
 				for (const auto& grade : student.grades) {
 					tempStr += " " + std::to_string(grade);
 				}
